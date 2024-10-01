@@ -43,5 +43,6 @@ for( fold in 1:k )
 
 ## error
 mean(test.pred == mush.shuffle$class)
-
+mae(mush.shuffle$class, test.pred)
+mse(mush.shuffle$class, test.pred)
 
